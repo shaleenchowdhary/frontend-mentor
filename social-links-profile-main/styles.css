@@ -1,0 +1,104 @@
+@font-face {
+    font-family: inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: hsl(0, 0%, 12%);
+    height: auto;
+    width: 20rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+#user-image-container {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#user-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#location {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+}
+
+#designation {
+    color: hsl(0, 0%, 82%);
+    text-align: center;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#socials {
+    padding: 1.25rem 0 0 0;
+}
+
+li {
+    list-style: none;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 0.65rem;
+    border-radius: 0.5rem;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsl(0, 0%, 82%);
+}
